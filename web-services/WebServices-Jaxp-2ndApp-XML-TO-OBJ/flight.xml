@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flight-type>
+	<internation-flight>
+		<flight-id>3001</flight-id>
+		<flight-src>hyd</flight-src>
+		<flight-dest>pune</flight-dest>
+		<bill-amt>2350.24</bill-amt>
+	</internation-flight>
+</flight-type>

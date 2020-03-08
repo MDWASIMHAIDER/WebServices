@@ -1,0 +1,15 @@
+127.0.0.1 - - [26/Aug/2019:19:22:17 +0530] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [26/Aug/2019:19:22:19 +0530] "GET /Restful-Services-JersyImp-WishApp/ HTTP/1.1" 404 1066
+0:0:0:0:0:0:0:1 - - [26/Aug/2019:19:23:06 +0530] "GET /Restful-Services-JersyImp-WishApp/rest/welcome?10 HTTP/1.1" 200 54
+0:0:0:0:0:0:0:1 - - [26/Aug/2019:19:23:33 +0530] "GET /Restful-Services-JersyImp-WishApp/rest/welcome?id=10 HTTP/1.1" 200 52
+127.0.0.1 - - [26/Aug/2019:19:35:55 +0530] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [26/Aug/2019:19:35:55 +0530] "GET /Restful-Services-JersyImp-WishApp/ HTTP/1.1" 404 1066
+0:0:0:0:0:0:0:1 - - [26/Aug/2019:19:36:22 +0530] "GET /Restful-Services-JersyImp-WishApp/rest/welcome/?id=20 HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [26/Aug/2019:19:37:08 +0530] "GET /Restful-Services-JersyImp-WishApp/rest/welcome/?10 HTTP/1.1" 200 54
+127.0.0.1 - - [26/Aug/2019:19:38:08 +0530] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [26/Aug/2019:19:38:09 +0530] "GET /Restful-Services-JersyImp-WishApp/ HTTP/1.1" 404 1066
+127.0.0.1 - - [26/Aug/2019:19:40:15 +0530] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [26/Aug/2019:19:40:16 +0530] "GET /Restful-Services-JersyImp-WishApp/ HTTP/1.1" 404 1066
+0:0:0:0:0:0:0:1 - - [26/Aug/2019:19:40:28 +0530] "GET /Restful-Services-JersyImp-WishApp/rest/welcome/?20 HTTP/1.1" 200 54
+0:0:0:0:0:0:0:1 - - [26/Aug/2019:19:41:02 +0530] "GET /Restful-Services-JersyImp-WishApp/rest/welcome/?id=20 HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [26/Aug/2019:19:41:10 +0530] "GET /Restful-Services-JersyImp-WishApp/rest/welcome/?id=20 HTTP/1.1" 200 52

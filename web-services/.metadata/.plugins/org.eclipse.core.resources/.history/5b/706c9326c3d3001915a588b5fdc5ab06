@@ -1,0 +1,42 @@
+package com.nt.resource;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.lang.annotation.Annotation;
+import java.lang.reflect.Type;
+
+import javax.ws.rs.WebApplicationException;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.MultivaluedMap;
+import javax.ws.rs.ext.MessageBodyReader;
+
+public class MyCustomReader implements MessageBodyReader<CustomerDetail> {
+
+	@Override
+	public boolean isReadable(Class<?> type, Type genericType, Annotation[] annotations, MediaType mediaType) {
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+	@Override
+	public CustomerDetail readFrom(Class<CustomerDetail> type, Type genericType, Annotation[] annotations,
+			MediaType mediaType, MultivaluedMap<String, String> httpHeaders, InputStream entityStream)
+			throws IOException, WebApplicationException {
+			InputStreamReader isr=new InputStreamReader(entityStream);
+			BufferedReader br=new BufferedReader(isr);
+			String name=null;
+			String email=null;
+			int id=0;
+			 name=br.readLine();
+			 email=br.readLine();
+			 id=br.read();
+			CustomerDetail cd=new CustomerDetail();
+			cd.setId(101);
+			cd.setName("wasim");
+			cd.setEmail("wasim@91");
+			return cd;
+	}
+
+}

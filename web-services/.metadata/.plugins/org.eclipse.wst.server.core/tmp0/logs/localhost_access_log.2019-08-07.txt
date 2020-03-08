@@ -1,0 +1,4 @@
+127.0.0.1 - - [07/Aug/2019:13:46:55 +0530] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [07/Aug/2019:13:46:56 +0530] "GET /WebServices-7th-SoapBased-Using-JaxWs-RI/ HTTP/1.1" 404 1080
+0:0:0:0:0:0:0:1 - - [07/Aug/2019:13:47:35 +0530] "GET /WebServices-7th-SoapBased-Using-JaxWs-RI/railurl HTTP/1.1" 200 837
+0:0:0:0:0:0:0:1 - - [07/Aug/2019:13:47:40 +0530] "GET /WebServices-7th-SoapBased-Using-JaxWs-RI/railurl?wsdl HTTP/1.1" 200 2009

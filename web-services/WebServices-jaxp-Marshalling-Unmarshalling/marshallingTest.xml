@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invoice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/Xml/marshalingTest.xsd">
+	<invoice-id>101</invoice-id>
+	<name>wasim</name>
+	<address>bgp</address>
+</invoice>

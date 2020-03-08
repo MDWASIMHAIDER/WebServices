@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>nit.com</groupId>
+  <artifactId>RestEasy-3rd-App-100P-Code</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>RestEasy-3rd-App-100P-Code Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+  	   <failOnMissingWebXml>false</failOnMissingWebXml>
+  </properties>
+  
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    
+    
+    <!-- https://mvnrepository.com/artifact/org.glassfish.jersey.containers/jersey-container-servlet -->
+<dependency>
+    <groupId>org.glassfish.jersey.containers</groupId>
+    <artifactId>jersey-container-servlet</artifactId>
+    <version>2.20</version>
+</dependency>
+    
+    <!-- 
+     <dependency>
+			<groupId>org.jboss.resteasy</groupId>
+			<artifactId>resteasy-jaxrs</artifactId>
+			<version>2.2.1.GA</version>
+	</dependency>
+	 -->	
+		<!-- <dependency>
+        <groupId>org.jboss.resteasy</groupId>
+        <artifactId>resteasy-jaxrs</artifactId>
+        <version>3.0.6.Final</version>
+        <scope>provided</scope>
+    </dependency>     -->
+    
+    
+  </dependencies>
+  <build>
+    <finalName>RestEasy-3rd-App-100P-Code</finalName>
+  </build>
+</project>

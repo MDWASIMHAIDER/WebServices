@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:complexType name="internationalFlightType">
+		<xs:sequence>
+			<xs:element name="flight-id" type="xs:int"/>
+			<xs:element name="flight-src" type="xs:string"/>
+			<xs:element name="flight-dest" type="xs:string"/>
+			<xs:element name="bill-amt" type="xs:double"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="flight-type">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="international-flight" type="internationalFlightType"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

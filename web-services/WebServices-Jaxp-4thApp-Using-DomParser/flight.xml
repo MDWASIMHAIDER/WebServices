@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flight-type>
+	<international-flight>
+		<flight-id>2001</flight-id>
+		<flight-src>hydrabad</flight-src>
+		<flight-dest>pune</flight-dest>
+		<bill-amt>2545.00</bill-amt>
+	</international-flight>
+</flight-type>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<invoice-type xmlns="com.nt.types">
+    <invoice-id>2001</invoice-id>
+    <customer-name>wasim</customer-name>
+    <product>milk</product>
+    <product>chocolate</product>
+    <amount>2310.0</amount>
+</invoice-type>

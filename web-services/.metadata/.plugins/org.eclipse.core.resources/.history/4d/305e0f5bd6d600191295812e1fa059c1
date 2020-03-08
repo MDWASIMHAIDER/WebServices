@@ -1,0 +1,31 @@
+package com.nt.exception;
+
+public class CustomWishException extends Exception{
+	
+	private String status;
+	private String message;
+	
+	public CustomWishException() {
+		System.out.println("CustomeWishException called");
+	}
+	
+	
+	public String getStatus() {
+		return status;
+	}
+	public void setStatus(String status) {
+		this.status = status;
+	}
+	public String getMessage() {
+		return message;
+	}
+	public void setMessage(String message) {
+		this.message = message;
+	}
+	public CustomWishException(String status, String message) {
+		super(status);
+		this.status = status;
+		this.message = message;
+	}
+	
+}

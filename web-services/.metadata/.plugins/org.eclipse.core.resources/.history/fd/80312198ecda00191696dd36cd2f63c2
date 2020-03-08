@@ -1,0 +1,10 @@
+package com.nt.dao;
+
+import org.springframework.stereotype.Repository;
+
+import com.nt.bo.EsevaBO;
+
+@Repository
+public interface EsevaDAO {
+	public  int registerChild(EsevaBO bo);
+}

@@ -1,0 +1,16 @@
+package com.nt.dao;
+
+import org.springframework.stereotype.Repository;
+
+import com.nt.bo.EsevaBO;
+
+@Repository
+public class EsevaDAOImpl implements EsevaDAO {
+
+	@Override
+	public int registerChild(EsevaBO bo) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,8 @@
+127.0.0.1 - - [10/Aug/2019:12:05:48 +0530] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [10/Aug/2019:12:05:49 +0530] "GET /WebServices-7th-SoapBased-Using-JaxWs-RI/ HTTP/1.1" 404 1080
+0:0:0:0:0:0:0:1 - - [10/Aug/2019:12:05:54 +0530] "GET /WebServices-7th-SoapBased-Using-JaxWs-RI/railurl HTTP/1.1" 200 837
+0:0:0:0:0:0:0:1 - - [10/Aug/2019:12:05:58 +0530] "GET /WebServices-7th-SoapBased-Using-JaxWs-RI/railurl?wsdl HTTP/1.1" 200 2009
+127.0.0.1 - - [10/Aug/2019:12:08:16 +0530] "POST /WebServices-6th-App-SoapBase-Jaxws-Provider-RI/bookurl HTTP/1.1" 404 1106
+127.0.0.1 - - [10/Aug/2019:12:08:18 +0530] "POST /WebServices-6th-App-SoapBase-Jaxws-Provider-RI/bookurl HTTP/1.1" 404 1106
+127.0.0.1 - - [10/Aug/2019:12:08:30 +0530] "POST /WebServices-7th-SoapBased-Using-JaxWs-RI/railurl HTTP/1.1" 200 544
+0:0:0:0:0:0:0:1 - - [10/Aug/2019:12:16:51 +0530] "GET /WebServices-7th-SoapBased-Using-JaxWs-RI/railurl?wsdl HTTP/1.1" 200 2009

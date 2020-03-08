@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book type="Engineering">
+	<book-id>1001</book-id>
+	<book-name>java</book-name>
+	<author degree="Ifs">
+		<author-name>wasim</author-name>
+		<author-address>bihar</author-address>
+	</author>
+</book>

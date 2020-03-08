@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=WebServices-5th-SoapBased-Provider/src&lt;com.nt.service{Calculator.java[Calculator" modifiers="513" timestamp="1564828051764"/>
+<typeInfo handle="=WebServices-6th-App-SoapBase-Jaxws-Provider-RI/src&lt;com.nt.details{Book.java[Book" modifiers="513" timestamp="1565085696570"/>
+<typeInfo handle="=WebServices-7th-SoapBased-Using-JaxWs-RI/src\/main\/java&lt;com.nt.endpoints{Train.java[Train" modifiers="513" timestamp="1565087636069"/>
+<typeInfo handle="=RestEasy-2nd-App-CustomReader-Writer/C:\/Users\/wasim\/.m2\/repository\/org\/jboss\/resteasy\/jaxrs-api\/2.2.1.GA\/jaxrs-api-2.2.1.GA.jar&lt;javax.ws.rs.ext(MessageBodyWriter.class[MessageBodyWriter" modifiers="1537" timestamp="1567787583645"/>
+<typeInfo handle="=Restful-Services-Jersey-Rs-Injection-Params/C:\/Users\/wasim\/.m2\/repository\/javax\/ws\/rs\/javax.ws.rs-api\/2.0.1\/javax.ws.rs-api-2.0.1.jar&lt;javax.ws.rs.ext(MessageBodyWriter.class[MessageBodyWriter" modifiers="1537" timestamp="1567536071318"/>
+<typeInfo handle="=SpringRestIntegeration/src\/main\/java&lt;com.nt.service{RestUserService.java[RestUserService" modifiers="513" timestamp="1568663762233"/>
+</typeInfoHistroy>

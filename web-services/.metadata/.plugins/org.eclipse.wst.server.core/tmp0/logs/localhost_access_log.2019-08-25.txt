@@ -1,0 +1,5 @@
+127.0.0.1 - - [25/Aug/2019:22:28:00 +0530] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [25/Aug/2019:22:28:04 +0530] "GET /Restful-Services-JersyImp-WishApp/ HTTP/1.1" 404 1066
+0:0:0:0:0:0:0:1 - - [25/Aug/2019:22:28:12 +0530] "GET /Restful-Services-JersyImp-WishApp/rest/welcome HTTP/1.1" 200 41
+127.0.0.1 - - [25/Aug/2019:22:35:35 +0530] "GET / HTTP/1.1" 404 998
+0:0:0:0:0:0:0:1 - - [25/Aug/2019:22:35:35 +0530] "GET /Restful-Services-JersyImp-WishApp/ HTTP/1.1" 404 1066

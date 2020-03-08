@@ -1,0 +1,13 @@
+package com.nt.dao;
+
+import com.nt.bo.EsevaBO;
+
+public class EsevaDAOImpl implements EsevaDAO {
+
+	@Override
+	public int registerChild(EsevaBO bo) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

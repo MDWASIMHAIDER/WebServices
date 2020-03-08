@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inv:invoice-type xmlns:inv="com.nt.types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="com.nt.types file:///D:/Xml/invoice.xsd">
+	<inv:invoice-id>1001</inv:invoice-id>
+	<inv:customer-name>wasim</inv:customer-name>
+	<inv:product>Biscuits</inv:product>
+	<inv:amount>213</inv:amount>
+</inv:invoice-type>
